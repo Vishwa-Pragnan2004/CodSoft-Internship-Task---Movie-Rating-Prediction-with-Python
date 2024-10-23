@@ -66,5 +66,4 @@ new_movies_df['Predicted Rating'] = predictions
 # Output results
 print(new_movies_df[['Name', 'Predicted Rating']])
 
-# Optionally save to a new CSV
-# new_movies_df.to_csv('predicted_movie_ratings.csv', index=False)  # Uncomment to save
+
